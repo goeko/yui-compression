@@ -1,0 +1,62 @@
+/**
+ * global-print.css
+ */
+
+/* core */
+
+.container {
+	background-color: #fff;
+	padding: 0 0 0 0;
+	border: none;
+}
+
+/* header */
+#hd {
+	display: none;
+}
+	
+#bd {
+	
+}
+	#bd .sidebar {
+		display: none;
+	}
+	
+	#bd .footnote {
+		border-top: 1px solid #666;
+		border-bottom: 1px solid #666;
+		font-style: italic;
+		padding: 10px;
+		font-size: 90%;
+		color: #333;
+	}
+	
+#ft #links {
+	display: none;
+}
+
+.pullquote {
+	width: 35%;
+	font-size: 110%;
+	text-align: left;
+	font-weight: bold;
+	padding: 0 0 0 2.5em;
+	margin: .5em;
+	clear: none;
+}
+	.pullquote.right {
+		float: right;
+	}
+	.pullquote.left {
+		float: left;
+	}
+
+	
+/**
+ * http://www.imarc.net/communique/view/82/the_servicemark_sm_and_the_web#comment_2793
+ */
+span.sm,
+span.tm {
+	font-family: "Lucida Sans Unicode"; /* A rare sm-supporting font. */
+	line-height: 0; /* keep the leading consistent in a paragraph */
+}

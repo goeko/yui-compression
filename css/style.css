@@ -1,0 +1,83 @@
+/**
+ * style.css
+ */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: Georgia;
+	font-size: 62.5%;
+}
+
+a:link,
+a:active,
+a:visited {
+	color: #366799;
+}
+a:hover {
+	color: #cc0000;
+}
+
+.x-form-item,
+.x-panel-header {
+	font-family: Arial;
+}
+	.x-panel-header {
+		font-size: 1.5em;
+	}
+.x-view-over {
+	background-color: #ffffdd;
+	cursor: pointer;
+}
+.x-view-selected {
+	background-color: #ffffaa;
+	cursor: pointer;
+}
+
+.result {
+	font-size: 1.5em;
+	padding: .8em;
+	border-bottom: 1px solid #bdd3ef;
+}
+	.result h2 {
+		font-size: 1.2em;
+		font-weight: normal;
+		color: #366799;
+	}
+	.result .photo {
+		padding: .3em;
+		border: 1px solid #ddd;
+		margin-left: .3em;
+		float: right;
+	}
+	.result a:link,
+	.result a:visited,
+	.result a:active {
+		text-decoration: none;
+	}
+	.result a:hover {
+		text-decoration: underline;
+	}
+	.result .review-count {
+		font-weight: bold;
+		font-size: .7em;
+	}
+	
+	.result p {
+		margin: .7em 0 0 0;
+	}
+	
+.marker {
+	font-size: 1.5em;
+	width: 425px;
+	height: 200px;
+}
+	.marker .name {
+		font-size: 1.3em;
+	}
+	.marker .photo {
+		float: right;
+		margin: 0 1.5em .5em .5em;
+		padding: .5em;
+		border: 1px solid #ddd;
+	}
