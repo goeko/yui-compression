@@ -41,7 +41,7 @@ your local path, for example:
 Usage
 -----
 
-Compressing and concatenating your project files is simple. From the command line, get to your
+Compressing and concatenating your project files is simple. From the command line, navigate to your
 project folder (where the `build.xml` file is located) and type `ant <Enter>`
 
 ### Eclipse-based IDEs ###
