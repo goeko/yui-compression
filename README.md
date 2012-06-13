@@ -1,8 +1,7 @@
 YUI Compression
 ===============
 
-JS, CSS Compress and Concat Sample with YUI compressor
-
+JS, CSS Compress and Concat Sample with YUI compressor. The [original post](http://claude.betancourt.us/compress-javascript-and-css-as-part-of-your-build-process/ "Compress JavaScript and CSS as Part of your Build Process") is available here.
 
 This file is merely an illustration of what's possible with YUI compressor
 (http://bit.ly/yui-comp) and YUI compressor ant task (http://bit.ly/yui-comp-ant)
